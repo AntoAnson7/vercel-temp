@@ -1,0 +1,36 @@
+.todo{
+    background-color: lightgrey;
+    padding: 20px;
+    height: fit-content;
+    width: 30%;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.todo-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.todo-form button{
+    width: 50px;
+    border: none;
+}
+
+.todo-form input{
+    outline: none;
+    border: none;
+}
+
+.task-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.show-ch{
+    text-decoration: underline;
+    font-size: 12px;
+    color: darkblue;
+    cursor: pointer;
+}
